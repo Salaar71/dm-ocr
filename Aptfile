@@ -1,1 +1,3 @@
-libgl-dev
+ffmpeg 
+libsm6 
+libxext6
