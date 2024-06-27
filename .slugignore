@@ -1,5 +1,23 @@
-# cat .slugignore
+# Exclude virtual environments
+env/
+venv/
 
-/test
-/spec
-/docs
+# Exclude Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Exclude git directory
+.git/
+
+# Exclude development and local files
+instance/
+.pytest_cache/
+*.log
+*.sqlite3
+
+# Exclude data directory (if not needed for deployment)
+data/
+
+# Exclude large directories
+dm-ocr/
