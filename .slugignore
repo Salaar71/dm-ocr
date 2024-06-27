@@ -1,3 +1,9 @@
-node_modules/
-logs/
-*.log
+# Exclude development files
+.git/
+.gitignore
+.idea/
+venv/
+
+# Exclude large datasets or build artifacts
+data/
+build/
