@@ -1,16 +1,21 @@
-# Ignore virtual environments
-venv/
-
-# Ignore IDE files
-.idea/
-
-# Ignore compiled Python files
+# Byte-compiled / optimized Python files
+__pycache__/
 *.pyc
 
-# Ignore large datasets or build artifacts
-data/
-build/
+# Python env
+venv/
+env/
 
-# Exclude build artifacts
-dist/
-*.egg-info/
+# Flask specific
+instance/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Other
+*.log
+.DS_Store
