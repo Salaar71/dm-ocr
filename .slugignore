@@ -1,9 +1,5 @@
-# Exclude development files
-.git/
-.gitignore
-.idea/
-venv/
-
-# Exclude large datasets or build artifacts
-data/
-build/
+# Heres a comment
+*.psd
+*.pdf
+/test
+/spec

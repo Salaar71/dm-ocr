@@ -1,5 +1,6 @@
-Flask==3.0.3
-paddleocr==2.6.0.1
-paddlepaddle==2.6.1
-gunicorn==20.1.0
-Werkzeug==3.0.3
+Flask
+paddleocr
+paddlepaddle
+gunicorn
+Werkzeug
+opencv-python-headless==4.2.0.32
